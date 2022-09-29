@@ -18,6 +18,7 @@ public class VacuumCleaner extends Appliance implements Serializable
 
 	public VacuumCleaner()
 	{
+            super();
 	}
 
 	public VacuumCleaner(String name, double price, int powerConsumption, String filterType, String bagType,
