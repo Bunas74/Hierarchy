@@ -15,6 +15,7 @@ public class PersonalComputer extends Appliance implements Serializable
 
 	public PersonalComputer()
 	{
+            super();
 	}
 
 	public PersonalComputer(String name, double price, double batteryCapacity, int memoryRom, int displayInches)
