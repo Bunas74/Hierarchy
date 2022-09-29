@@ -12,6 +12,7 @@ public class TabletPC extends PersonalComputer implements Serializable
 
 	public TabletPC()
 	{
+            super();
 	}
 
 	public TabletPC(String name, double price, double batteryCapacity, int memoryRom, int displayInches,
