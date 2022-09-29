@@ -16,6 +16,7 @@ public class KitchenAppliance extends Appliance implements Serializable
 
 	public KitchenAppliance()
 	{
+            super();
 	}
 
 	public KitchenAppliance(String name, double price, int powerConsumption, int weight, double height, double width)
