@@ -12,6 +12,7 @@ public class Oven extends KitchenAppliance implements Serializable
 
 	public Oven()
 	{
+            super();
 	}
 
 	public Oven(String name, double price, int powerConsumption, int weight, double height, double width, int capacity,
