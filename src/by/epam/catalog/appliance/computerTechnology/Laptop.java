@@ -13,6 +13,7 @@ public class Laptop extends PersonalComputer implements Serializable
 
 	public Laptop()
 	{
+            super();
 	}
 
 	public Laptop(String name, double price, double batteryCapacity, String os, int memoryRom, int systemMemory,
