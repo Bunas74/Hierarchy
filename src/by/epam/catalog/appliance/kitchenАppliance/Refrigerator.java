@@ -12,6 +12,7 @@ public class Refrigerator extends KitchenAppliance implements Serializable
 
 	public Refrigerator()
 	{
+            super();
 	}
 
 	public Refrigerator(String name, double price, int powerConsumption, int weight, double height, double width,
