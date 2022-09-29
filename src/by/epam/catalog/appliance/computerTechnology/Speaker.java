@@ -16,6 +16,7 @@ public class Speaker extends Appliance implements Serializable
 
 	public Speaker()
 	{
+            super();
 	}
 
 	public Speaker(String name, double price, int powerConsumption, int numberOfSpeakers, int frequencyRange,
